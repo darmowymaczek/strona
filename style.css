@@ -1,0 +1,47 @@
+a {
+  background-color: Gray; 
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-style: solid;
+  border-color: greenyellow;
+  border-radius: 12px;
+}
+a:hover {
+  background-color: LightGray; 
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-style: solid;
+  border-color: greenyellow;
+  border-radius: 12px;
+  
+}
+
+body {
+    font-family: 'Alatsi';
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
